@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Async</title>
+</head>
+<body class="text-center">
+<h1 class="mb-4">Async Login Form in Pure JS</h1>
+<form>
+    <div class="form-group row justify-content-center">
+        <label for="country" class="col-lg-1">Country:</label>
+        <div class="col-sm-3">
+            <select name="country" id="country">
+                <option value="" selected disabled hidden>Choose option</option>
+                <option value="Ukraine">Ukraine</option>
+                <option value="Poland">Poland</option>
+                <option value="USA">USA</option>
+                <option value="United Kingdom">United Kingdom</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group row justify-content-center">
+        <label for="city" class="col-lg-1">City:</label>
+        <div class="col-sm-3">
+            <select name="city" id="city" disabled>
+                <option value="" selected disabled hidden>Choose city first</option>
+            </select>
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit" disabled>Submit</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,66 @@
+{
+  "countries": [
+    {
+      "name": "Ukraine",
+      "cities": [
+        {
+          "name": "Lviv"
+        },
+        {
+          "name": "Kyiv"
+        },
+        {
+          "name": "Kharkiv"
+        },
+        {
+          "name": "Odessa"
+        }
+      ]
+    },
+    {
+      "name": "Poland",
+      "cities": [
+        {
+          "name": "Krakov"
+        },
+        {
+          "name": "Warsaw"
+        },
+        {
+          "name": "Lodz"
+        },
+        {
+          "name": "Wrocław"
+        }
+      ]
+    },
+    {
+      "name": "USA",
+      "cities": [
+        {
+          "name": "Brandon"
+        },
+        {
+          "name": "Arlington"
+        },
+        {
+          "name": "Spring Valley"
+        }
+      ]
+    },
+    {
+      "name": "United Kingdom",
+      "cities": [
+        {
+          "name": "Belfast"
+        },
+        {
+          "name": "Birmingham"
+        },
+        {
+          "name": "London"
+        }
+      ]
+    }
+  ]
+}
